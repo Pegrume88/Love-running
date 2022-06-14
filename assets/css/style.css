@@ -208,5 +208,18 @@ hr {
 #times h2 {
     color: white;
 }
-    
-
+footer {
+    height: 150px;
+}    
+.social-network {
+    text-align: center;
+}
+.social-network li {
+    display: inline;
+}
+.social-network i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
