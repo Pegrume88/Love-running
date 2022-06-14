@@ -1,48 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
     border: none;
 }
+
 body {
 
     font-family: lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
-h1, h2 {
+
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #232323;
 }
+
 #logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
 }
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
 }
-#menu, #logo{
+
+#menu,
+#logo {
     line-height: 75px;
 }
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
+
 #menu a {
     text-decoration: none;
     color: inherit;
 }
+
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -50,9 +63,12 @@ h1, h2 {
 
     position: relative;
 }
-#cover-text, #cover-text h2 {
+
+#cover-text,
+#cover-text h2 {
     color: white;
 }
+
 #hero-image {
     height: 600px;
     width: 100%;
@@ -61,14 +77,17 @@ h1, h2 {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 @keyframes hero-zoom {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
 }
+
 #cover-text {
     font-size: 130%;
     font-family: Oswald, sans-serif;
@@ -87,30 +106,35 @@ h1, h2 {
 
     position: absolute;
 }
+
 #club-ethos {
     height: 600px;
 }
+
 #left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
 }
+
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    
+
 }
+
 #center-about {
     width: 33%;
     margin: 0 auto;
 }
+
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px 0;
 }
-    
+
 
 .left-about-heading {
     width: 60%;
@@ -119,6 +143,7 @@ hr {
     clear: both;
     margin-bottom: 50px;
 }
+
 .right-about-heading {
     width: 60%;
     float: left;
@@ -130,15 +155,18 @@ hr {
 .right-about-heading h2 {
     text-align: right;
 }
+
 .right-about-heading p {
     text-align: right;
 }
+
 #welcome {
     text-align: center;
     margin: 20px;
     font-size: 280%;
 
 }
+
 #circle-container {
     width: 300px;
     height: 300px;
@@ -149,11 +177,13 @@ hr {
     border-radius: 50%;
     margin: 0 auto;
 }
+
 #circle-cover-bg {
     background: url(../images/ethos-center-image.jpeg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
+
 #times {
     background-image: url(../images/dublin-city.webp);
     background-repeat: no-repeat;
@@ -162,3 +192,21 @@ hr {
     width: 100%;
     overflow: hidden;
 }
+
+#times div {
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+    
+}
+#times h2 {
+    color: white;
+}
+    
+
